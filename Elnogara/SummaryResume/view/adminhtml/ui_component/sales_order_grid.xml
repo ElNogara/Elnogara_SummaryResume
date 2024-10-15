@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Elnogara Company. All rights reserved.
+ */
+-->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="sales_order_columns">
+        <actionsColumn name="order_summary" class="Elnogara\SummaryResume\Ui\Component\Listing\Column\SummaryModal" sortOrder="100">
+            <settings>
+                <label>Resumo</label>
+                <indexField>entity_id</indexField>
+                <draggable>true</draggable>
+            </settings>
+        </actionsColumn>
+    </columns>
+</listing>
